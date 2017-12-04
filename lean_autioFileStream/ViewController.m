@@ -7,16 +7,20 @@
 //
 
 #import "ViewController.h"
-
+#import "CLSimpleAudioPlayer.h"
 @interface ViewController ()
-
+{
+    CLSimpleAudioPlayer *_player;
+}
 @end
-
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"MP3Sample" ofType:@"mp3"];
+    CLSimpleAudioPlayer *palyer = [[CLSimpleAudioPlayer alloc] initWithFilePath:path fileType:kAudioFileMP3Type];
+    _player = palyer;
+    [_player play];
+    // Do any azdditional setup after loading the view, typically from a nib.
 }
 
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA28EB1B1FCC6B4B008FF540 /* MP3Sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA28EB1A1FCC6782008FF540 /* MP3Sample.mp3 */; };
+		BA3B0FC91FB7280A007F25AA /* CLAudioBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B0FC81FB7280A007F25AA /* CLAudioBuffer.m */; };
+		BA3B0FCC1FB7477D007F25AA /* CLAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B0FCB1FB7477D007F25AA /* CLAudioFile.m */; };
+		BA3B0FCF1FB8A053007F25AA /* CLSimpleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B0FCE1FB8A053007F25AA /* CLSimpleAudioPlayer.m */; };
 		BA86DADD1FA59E46005E8993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DADC1FA59E46005E8993 /* AppDelegate.m */; };
 		BA86DAE01FA59E46005E8993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DADF1FA59E46005E8993 /* ViewController.m */; };
 		BA86DAE31FA59E46005E8993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA86DAE11FA59E46005E8993 /* Main.storyboard */; };
@@ -15,6 +19,9 @@
 		BA86DAEB1FA59E46005E8993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DAEA1FA59E46005E8993 /* main.m */; };
 		BA86DAF51FA59E46005E8993 /* lean_autioFileStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DAF41FA59E46005E8993 /* lean_autioFileStreamTests.m */; };
 		BA86DB001FA59E46005E8993 /* lean_autioFileStreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DAFF1FA59E46005E8993 /* lean_autioFileStreamUITests.m */; };
+		BA86DB0F1FA59E71005E8993 /* CLParsedAudioData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DB0E1FA59E71005E8993 /* CLParsedAudioData.m */; };
+		BA86DB121FA59FF5005E8993 /* CLAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DB111FA59FF5005E8993 /* CLAudioFileStream.m */; };
+		BA86DB151FAF6DFF005E8993 /* CLAudioOutputQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86DB141FAF6DFF005E8993 /* CLAudioOutputQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA28EB1A1FCC6782008FF540 /* MP3Sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MP3Sample.mp3; sourceTree = "<group>"; };
+		BA3B0FC71FB7280A007F25AA /* CLAudioBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAudioBuffer.h; sourceTree = "<group>"; };
+		BA3B0FC81FB7280A007F25AA /* CLAudioBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAudioBuffer.m; sourceTree = "<group>"; };
+		BA3B0FCA1FB7477C007F25AA /* CLAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAudioFile.h; sourceTree = "<group>"; };
+		BA3B0FCB1FB7477D007F25AA /* CLAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAudioFile.m; sourceTree = "<group>"; };
+		BA3B0FCD1FB8A053007F25AA /* CLSimpleAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSimpleAudioPlayer.h; sourceTree = "<group>"; };
+		BA3B0FCE1FB8A053007F25AA /* CLSimpleAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSimpleAudioPlayer.m; sourceTree = "<group>"; };
 		BA86DAD81FA59E46005E8993 /* lean_autioFileStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lean_autioFileStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA86DADB1FA59E46005E8993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA86DADC1FA59E46005E8993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		BA86DAFB1FA59E46005E8993 /* lean_autioFileStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lean_autioFileStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA86DAFF1FA59E46005E8993 /* lean_autioFileStreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lean_autioFileStreamUITests.m; sourceTree = "<group>"; };
 		BA86DB011FA59E46005E8993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA86DB0D1FA59E71005E8993 /* CLParsedAudioData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLParsedAudioData.h; sourceTree = "<group>"; };
+		BA86DB0E1FA59E71005E8993 /* CLParsedAudioData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLParsedAudioData.m; sourceTree = "<group>"; };
+		BA86DB101FA59FF5005E8993 /* CLAudioFileStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAudioFileStream.h; sourceTree = "<group>"; };
+		BA86DB111FA59FF5005E8993 /* CLAudioFileStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAudioFileStream.m; sourceTree = "<group>"; };
+		BA86DB131FAF6DFF005E8993 /* CLAudioOutputQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAudioOutputQueue.h; sourceTree = "<group>"; };
+		BA86DB141FAF6DFF005E8993 /* CLAudioOutputQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAudioOutputQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +123,21 @@
 			children = (
 				BA86DADB1FA59E46005E8993 /* AppDelegate.h */,
 				BA86DADC1FA59E46005E8993 /* AppDelegate.m */,
+				BA86DB0D1FA59E71005E8993 /* CLParsedAudioData.h */,
+				BA86DB0E1FA59E71005E8993 /* CLParsedAudioData.m */,
+				BA86DB101FA59FF5005E8993 /* CLAudioFileStream.h */,
+				BA86DB111FA59FF5005E8993 /* CLAudioFileStream.m */,
+				BA3B0FCA1FB7477C007F25AA /* CLAudioFile.h */,
+				BA3B0FCB1FB7477D007F25AA /* CLAudioFile.m */,
+				BA86DB131FAF6DFF005E8993 /* CLAudioOutputQueue.h */,
+				BA86DB141FAF6DFF005E8993 /* CLAudioOutputQueue.m */,
+				BA3B0FC71FB7280A007F25AA /* CLAudioBuffer.h */,
+				BA3B0FC81FB7280A007F25AA /* CLAudioBuffer.m */,
+				BA3B0FCD1FB8A053007F25AA /* CLSimpleAudioPlayer.h */,
+				BA3B0FCE1FB8A053007F25AA /* CLSimpleAudioPlayer.m */,
 				BA86DADE1FA59E46005E8993 /* ViewController.h */,
 				BA86DADF1FA59E46005E8993 /* ViewController.m */,
+				BA28EB1A1FCC6782008FF540 /* MP3Sample.mp3 */,
 				BA86DAE11FA59E46005E8993 /* Main.storyboard */,
 				BA86DAE41FA59E46005E8993 /* Assets.xcassets */,
 				BA86DAE61FA59E46005E8993 /* LaunchScreen.storyboard */,
@@ -239,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA86DAE81FA59E46005E8993 /* LaunchScreen.storyboard in Resources */,
+				BA28EB1B1FCC6B4B008FF540 /* MP3Sample.mp3 in Resources */,
 				BA86DAE51FA59E46005E8993 /* Assets.xcassets in Resources */,
 				BA86DAE31FA59E46005E8993 /* Main.storyboard in Resources */,
 			);
@@ -265,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA86DB151FAF6DFF005E8993 /* CLAudioOutputQueue.m in Sources */,
+				BA3B0FCC1FB7477D007F25AA /* CLAudioFile.m in Sources */,
+				BA3B0FCF1FB8A053007F25AA /* CLSimpleAudioPlayer.m in Sources */,
+				BA86DB0F1FA59E71005E8993 /* CLParsedAudioData.m in Sources */,
+				BA3B0FC91FB7280A007F25AA /* CLAudioBuffer.m in Sources */,
 				BA86DAE01FA59E46005E8993 /* ViewController.m in Sources */,
 				BA86DAEB1FA59E46005E8993 /* main.m in Sources */,
+				BA86DB121FA59FF5005E8993 /* CLAudioFileStream.m in Sources */,
 				BA86DADD1FA59E46005E8993 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
